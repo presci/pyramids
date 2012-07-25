@@ -30,15 +30,15 @@ To compile run
 
 The application is developed in Erlang. To run the application.
 
-bash> erl -pa ./ebin 
+    bash> erl -pa ./ebin 
 
-pyr:start(No. of bricks).
-pyr:start(29).
-Example
-1> pyr:start(1200).
-3B 5B 7H 14H
-ok
-2> pyr:start(29).
-2H 3B 3H
-ok
+    pyr:start(No. of bricks).
+    pyr:start(29).
+    Example
+    1> pyr:start(1200).
+    3B 5B 7H 14H
+    ok
+    2> pyr:start(29).
+    2H 3B 3H
+    ok
 
